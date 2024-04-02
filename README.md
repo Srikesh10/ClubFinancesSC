@@ -8,10 +8,10 @@ This smart contract allows sports clubs to manage their financial data and ensur
 * Set the initial governing authority address and the Financial Fair Play expenditure limit during deployment.
 
 <h3>**Adding Financial Data**</h3>
-* Use the 'reportFinancials' function to report financial data for your club.
-* Provide the revenue and expenses as parameters to report financials.
-* Ensure that your club is not already compliant before reporting financials.
-* The contract automatically checks compliance based on reported financial data and the expenditure limit.
+*Use the 'reportFinancials' function to report financial data for your club.
+*Provide the revenue and expenses as parameters to report financials.
+*Ensure that your club is not already compliant before reporting financials.
+*The contract automatically checks compliance based on reported financial data and the expenditure limit.
 
 <h3>**Updating Expenditure Limit**</h3>
 * Only the governing authority can update the expenditure limit using the updateExpenditureLimit function.
